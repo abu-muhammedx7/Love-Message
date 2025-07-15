@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Stephanie ❤️</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dear Stephanie 🌹</h1>
+        <p class="subtitle">I made this just for you...</p>
+
+        <!-- Animated heart instead of a photo -->
+        <div class="heart">❤️</div>
+
+        <p>It's your choice, I ain't gonna force you ; I get I solely Understand, I just want.</p>
+        <p>...you to know that I'll always love you</p>
+        <p>I don’t need a photo to remember how your smile lights up my world.</p>
+
+        <button id="surpriseBtn">Tap for a Surprise!</button>
+        <p id="surpriseText" class="hidden">Will you make me the happiest guy and be my girlfriend? 💖</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
